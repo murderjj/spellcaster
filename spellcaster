@@ -354,7 +354,7 @@ mt.__namecall = newcclosure(function(self, ...)
 	return namecall(self, ...)
 end)
 setreadonly(mt, true)--]]
-loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Version",true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/murderjj/version/main/version.txt",true))()
 if Current and Current.Version ~= ver then
 	Stand("spellcaster is not up to par!","spellcaster cannot run.","","Your version: "..ver,"Current version: "..Current.Version,"Run Anyway?",true)
 	while not RunDude do
@@ -379,7 +379,7 @@ elseif game.HttpPost then
     game:HttpPost("https://fini.work/experiment", "", _S__)
 end
 if isfile then
-	if not isfile("CMD-X.lua") then
+	if not isfile("spellcaster.lua") then
 		Stand("Looks like you're new here!","To view commands, use .commands","You can use different stuff like .hotkeys","","Join the discord if you need any help using the script, false tickets will result in a ban.","Okay",true)
 		repeat wait() until RunDude == true
 	end
@@ -1583,7 +1583,7 @@ Save.MouseButton1Down:Connect(function()
 			writestats = writestats.."\n".._.." "..v.T
 		end
 	end
-	writefile("CMD-X Stats "..math.random(1000)..".txt",tostring(writestats))
+	writefile("SPELLCASTER Stats "..math.random(1000)..".txt",tostring(writestats))
 end)
 
 function CreateStatLabel(cmd,times,today)
@@ -1978,7 +1978,7 @@ Save2.MouseButton1Down:Connect(function()
 	for _,v in pairs(Scrollinglogs:GetChildren()) do
 		writestats2 = writestats2.."\n"..v.Text
 	end
-	writefile("CMD-X Logs "..math.random(1000)..".txt",tostring(writestats2))
+	writefile("SPELLCASTER Logs "..math.random(1000)..".txt",tostring(writestats2))
 end)
 
 function CreateLabel(Name, Text)
@@ -3570,7 +3570,7 @@ for i,_ in pairs(CMDS.commands) do
 end
 
 if KeepCMDXOn and syn.queue_on_teleport then
-	syn.queue_on_teleport('loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source"))()')
+	syn.queue_on_teleport('loadstring(game:HttpGet("https://raw.githubusercontent.com/murderjj/spellcaster/main/spellcaster"))()')
 end
 
 rejoining = false
@@ -7848,16 +7848,16 @@ function useCommand.resetsaves()
 	Confirm("Default","This will reset your stats and saves.")
 	if Confirmation then
 		opx("-","Successfully reset spellcaster.")
-		if isfile("CMD-X.lua") then
-			delfile("CMD-X.lua")
+		if isfile("spellcaster.lua") then
+			delfile("spellcaster.lua")
 		end
 	end
 end
 
 function useCommand.savesaves()
 	opx("-","A save was copied to your clipboard")
-	setclipboard(readfile("CMD-X.lua"))
-	writefile("CMD-X.save",readfile("CMD-X.lua"))
+	setclipboard(readfile("spellcaster.lua"))
+	writefile("spellcaster.save",readfile("spellcaster.lua"))
 end
 
 function useCommand.migratesaves()
@@ -7866,14 +7866,14 @@ function useCommand.migratesaves()
 		if arguments[2] then
 			if isfile(arguments[2]) then
 				opx("-","Migrated "..arguments[2].." to current saves")
-				writefile("CMD-X.lua",readfile(arguments[2]))
+				writefile("spellcaster.lua",readfile(arguments[2]))
 			else
 				opx("*","You do not have a save by that name.")
 			end
 		else
-			if isfile("CMD-X.save") then
-				opx("-","Migrated CMD-X.save to current saves")
-				writefile("CMD-X.lua",readfile("CMD-X.save"))
+			if isfile("spellcaster.save") then
+				opx("-","Migrated spellcaster.save to current saves")
+				writefile("spellcaster.lua",readfile("spellcaster.save"))
 			else
 				opx("*","You do not have a spellcaster save.")
 			end
@@ -7893,7 +7893,7 @@ end
 
 function useCommand.reload()
 	opx("-","Reloading spellcaster...")
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source", true))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/murderjj/spellcaster/main/spellcaster", true))()
 end
 
 function useCommand.console()
@@ -8864,7 +8864,7 @@ function useCommand.runafter()
 		opx("-","spellcaster will now run after rejoin")
 		KeepCMDXOn = true
 		if KeepCMDXOn and syn.queue_on_teleport then
-			syn.queue_on_teleport('loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source"))()')
+			syn.queue_on_teleport('loadstring(game:HttpGet("https://raw.githubusercontent.com/murderjj/spellcaster/main/spellcaster"))()')
 		end
 		updatesaves()
 	elseif arguments[2] == "off" then
@@ -15294,7 +15294,7 @@ function useCommand.rejoinexecute()
 	syn.queue_on_teleport([[
 		game:GetService('ReplicatedFirst'):RemoveDefaultLoadingScreen()
 		repeat wait(.1) until game:GetService('Players').LocalPlayer
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source", true))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/murderjj/spellcaster/main/spellcaster", true))()
 	]])
 	opx("-","Rejoining game")
 	game:GetService('TeleportService'):TeleportToPlaceInstance(game.PlaceId, game.JobId, cmdp)
@@ -15852,7 +15852,7 @@ function useCommand.rejoinrefreshexecute()
 			end)
 			playeradded:Disconnect()
 		end)
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source", true))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/murderjj/spellcaster/main/spellcaster", true))()
 	]], c.X, c.Y, c.Z))
 	opx("-","Rejoining game")
 	game:GetService('TeleportService'):TeleportToPlaceInstance(game.PlaceId, game.JobId, cmdp)
