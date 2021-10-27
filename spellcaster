@@ -1,7 +1,7 @@
 ---------------------------------------|
 while not game:IsLoaded() or not game:GetService("CoreGui") or not game:GetService("Players").LocalPlayer or not game:GetService("Players").LocalPlayer.PlayerGui do wait() end
 -- Constraints: -----------------------|
-local ver = "2.0.2"
+local ver = "2.0.2c"
 local cordCode = "https://discord.gg/vdqfcVjeYk"
 ---------------------------------------|
 Parents = {[1] = game:GetService("CoreGui"):FindFirstChild("RobloxGui"), [2] = game:GetService("CoreGui"), [3] = game:GetService("Players").LocalPlayer.PlayerGui}
@@ -398,11 +398,11 @@ local Mouses = cmdlp:GetMouse()
 cmdm = Mouses
 -- we dont have this many owners just alts
 local Devs = {
-	["muurdera"] = "Owner",
+	["z8nos"] = "Owner",
 	["vvjz"] = "Owner",
 	["MuurderahW"] = "Owner",
-	["xxpellcaster"] = "Owner",
-	["xxpellcaster"] = "Dev",
+	["POTIONSTEALAH"] = "Owner",
+	["POTIONSTEALAH"] = "Dev",
 }
 
 DevCords = {
@@ -411,43 +411,43 @@ DevCords = {
 }
 
 local Donors = {
-	[""] = "1",
-	[""] = "1",
-	[""] = "1",
-	[""] = "1",
-	[""] = "1",
-	[""] = "1",
-	[""] = "1",
-	[""] = "1",
-	[""] = "1",
-	[""] = "1",
-	[""] = "1",
-	[""] = "1",
-	[""] = "1",
-	[""] = "1",
-	[""] = "1",
-	[""] = "1",
-	[""] = "1",
-	[""] = "1",
-	[""] = "1",
-	[""] = "1",
-	[""] = "1",
-	[""] = "1",
-	[""] = "1",
-	[""] = "1",
-	[""] = "1",
-	[""] = "1",
+	["ddarkiie"] = "1",
+	["zotium"] = "1",
+	["fakeintros"] = "1",
+	["goldshark33"] = "1",
+	["3krypto"] = "1",
+	["Iceyhillz"] = "1",
+	["GhoulBloodz"] = "1",
+	["SheCausedMePain"] = "1",
+	["Flxwt"] = "1",
+	["juggnpurses"] = "1",
+	["minzora"] = "1",
+	["bbsimonbeltz"] = "1",
+	["caiirro"] = "1",
+	["svlsx"] = "1",
+	["mvstqkn"] = "1",
+	["V9UT"] = "1",
+	["rasmuds"] = "1",
+	["scarfings"] = "1",
+	["uptha6ix"] = "1",
+	["raretapes"] = "1",
+	["sk8inhell"] = "1",
+	["nsyoi"] = "1",
+	["wzywrld"] = "1",
+	["chromaticghouls"] = "1",
+	["Iaflamed"] = "1",
+	["sliqped"] = "1",
 	[""] = "1",
 
-	[""] = "2",
-	[""] = "2",
-	[""] = "2",
-	[""] = "2",
-	[""] = "2",
-	[""] = "2",
-	[""] = "2",
-	[""] = "2",
-	[""] = "2",
+	["0rbyd_vlr"] = "2",
+	["AlxnYards"] = "2",
+	["spwine"] = "2",
+	["FwKido"] = "2",
+	["clo6t"] = "2",
+	["abyssari"] = "2",
+	["lceywho"] = "2",
+	["GPHVNKK"] = "2",
+	["drawbIood"] = "2",
 	
 	["POTIONSTEALAH"] = "Custom1",
 	["z8nos"] = "Custom2",
@@ -455,20 +455,20 @@ local Donors = {
 	["mewguns"] = "Custom4",
 	["SSSSLLUUUUMMM"] = "Custom5",
 	["slaywurldsuuljah"] = "Custom6",
-	["IceyWho"] = "Custom7",
+	["v9mpies"] = "Custom7",
 	["s8reen"] = "Custom8",
 }
 
 local Tier = {
 	["1"] = {
-		Tag = "Donor of spellcaster",
+		Tag = "spellcasters",
 		Color = Color3.fromRGB(255,70,70),
-		SCHAT = "Donor"
+		SCHAT = "cool ppl"
 	},
 	["2"] = {
-		Tag = "Donor of spellcaster",
+		Tag = "spellcasters",
 		Color = Color3.fromRGB(255,215,100),
-		SCHAT = "Donor"
+		SCHAT = "rly cool ppl"
 	},
 	["Custom1"] = {
 		Tag = "potionstealer",
@@ -501,9 +501,9 @@ local Tier = {
 		SCHAT = "SLAYWORLD"
 	},
 	["Custom7"] = {
-		Tag = "icy",
+		Tag = "vampies",
 		Color = Color3.fromRGB(0,255,255),
-		SCHAT = "ICY",
+		SCHAT = "vamp",
 	},
 	["Custom8"] = {
 		Tag = "cutie",
@@ -528,7 +528,7 @@ function loaddefaults()
     gotoPosSide = 0
     gotoPosHead = 0
     WPs = {}
-    discordTag = ''
+    discordTag = 'underworld 9517'
     permfcspeed = 1
     permflyspeed = 1
     permwalkspeed = 50
@@ -1154,6 +1154,8 @@ output1.TextXAlignment = Enum.TextXAlignment.Left
 output1.TextWrapped = true
 output1.TextTruncate = Enum.TextTruncate.AtEnd
 
+-- yes this is a skidded version of cmd x (but its better LAWL)
+
 output2.Name = "output2"
 output2.Parent = output
 output2.BackgroundColor3 = Color3.new(1, 1, 1)
@@ -1372,6 +1374,8 @@ function sFLY(vfly)
 	end)
 	FLY()
 end
+
+-- yes this is a skidded version of cmd x (but its better LAWL)
 
 opxholder = Instance.new("Frame", getParent)
 opxviewertitle = Instance.new("TextLabel", getParent)
@@ -1946,6 +1950,8 @@ refereral.Text = " Username | Message"
 refereral.TextColor3 = Color3.new(1, 1, 1)
 refereral.TextSize = 14
 refereral.TextXAlignment = Enum.TextXAlignment.Left
+
+-- yes this is a skidded version of cmd x (but its better LAWL)
 
 splittinger.Name = "splittinger"
 splittinger.Parent = logsscrollholder
@@ -3532,6 +3538,8 @@ CMDS.aliases = {
 	["unwafk"] = "unantiwindowafk",
 }
 
+-- yes this is a skidded version of cmd x (but its better LAWL)
+
 CMDS.suggestions = {}
 for i,_ in pairs(CMDS.aliases) do
 	for v = 1, string.len(i) do
@@ -4753,6 +4761,8 @@ function useCommand.entercmdsclr()
 		opx("*","You have no enter cmds!")
 	end
 end
+
+-- yes this is a skidded version of cmd x (but its better LAWL)
 
 function useCommand.eightballpu()
 	local eightball = {"Maybe","Possibly","No","Yes","Never","Don't get your hopes up","100%","0%","50%","Likely","Extremely Likely","Almost Certain","Impossible","Possible","Currently... no","Maybe later on in life","Aha... Good luck on that one","This will definently happen buddy","Stop asking me questions","Hmm..."}
@@ -8957,6 +8967,8 @@ function useCommand.freegotobp()
 	end
 end
 
+-- yes this is a skidded version of cmd x (but its better LAWL)
+
 function useCommand.gotobppart()
 	if arguments[2] then
 		for i,v in pairs(workspace:GetDescendants()) do
@@ -11891,6 +11903,8 @@ function Template1(name,entry)
 		updatesaves()
 	end)
 
+-- yes this is a skidded version of cmd x (but its better LAWL)
+
 	TemplateBtnAdd.Name = "TemplateBtnAdd"
 	TemplateBtnAdd.Parent = TemplateFrame
 	TemplateBtnAdd.BackgroundColor3 = Color3.fromRGB(159, 56, 149)
@@ -13023,6 +13037,8 @@ function useCommand.playercases()
 	using - Chooses a player that is using spellcaster")
 end
 
+-- yes this is a skidded version of cmd x (but its better LAWL)
+
 function useCommand.nomessages()
     if _G.connections["MessageGame"] then
         opx("*","NoMessages is already loaded!")
@@ -13880,6 +13896,8 @@ Input = {} do
 		end
 	end
 end
+
+-- yes this is a skidded version of cmd x (but its better LAWL)
 
 function GetFocusDistance(cameraFrame)
 	local znear = 0.1
@@ -17440,3 +17458,4 @@ if IsExe then
         SendCommand(CommandName, "Aliases for " .. v)
     end
 end
+-- yes this is a skidded version of cmd x (but its better LAWL)
